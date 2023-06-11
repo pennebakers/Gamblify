@@ -1,10 +1,12 @@
+import InputBox from "../components/InputBox"
+
 function SignUp() {
     return (
         <div>
-            <input></input>
-            <input></input>
-            <input></input>
-            <input></input>
+            <InputBox placeholder={"Email"} />
+            <InputBox placeholder={"Username"} />
+            <InputBox placeholder={"Password"} />
+            <InputBox placeholder={"Password"} />
             <button>Submit</button>
         </div>
     )
