@@ -1,12 +1,14 @@
-import Login from "../components/Login"
-import SignUp from "../components/SignUp"
+import LoginButton from "../components/LoginButton"
+import SignUpButton from "../components/SignUpButton"
+
+
 
 function Landing() {
     return (
         <div>
             <h1>Gamblify</h1>
-            <Login></Login>
-            <SignUp></SignUp>
+            <LoginButton></LoginButton>
+            <SignUpButton></SignUpButton>
         </div>
     )
 }
