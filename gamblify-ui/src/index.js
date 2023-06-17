@@ -9,6 +9,8 @@ import {
 import Landing from './routes/Landing';
 import Login from './routes/Login'
 import SignUp from './routes/SignUp';
+import Home from './routes/Home';
+import NFL from './routes/NFL';
 
 
 const router = createBrowserRouter([
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <SignUp />
+  },
+  {
+    path: "/home",
+    element: <Home />
+  },
+  {
+    path: "/nfl",
+    element: <NFL />
   }
 ])
 
