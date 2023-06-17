@@ -1,7 +1,8 @@
 ## Stats
 
--Player
--Team
+- Player
+- Team
+
 
 ## Player Stats
 
